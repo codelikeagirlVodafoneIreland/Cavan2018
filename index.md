@@ -1,19 +1,14 @@
 ## Welcome to Skibbereen CodeLikeAGirl project files
 
 
-Project 1: [Footloose](https://github.com/codelikeagirlVodafoneIreland/Cavan2018/tree/master/Footloose/index.html)
+Project 1: PLACEHOLDER - LINK IS NOT WORKING PROPERLY YET [Footloose](https://github.com/codelikeagirlVodafoneIreland/Cavan2018/tree/master/Footloose/index.html)
 
-Project 2: [Guide to being a Teenager](https://codelikeagirlvodafoneireland.github.io/Skibbereen/guide%20to%20being%20a%20teenager%20meme/index.html)
+Project 2: TBC
 
-Project 3: [O'Neill's Cafe](https://codelikeagirlvodafoneireland.github.io/Skibbereen/oneillcoffee/index.html)
+Project 3: TBC
 
-Project 4: [Chunez](https://codelikeagirlvodafoneireland.github.io/Skibbereen/Chunez/index.html)
+Project 4: TBC
 
-Project 5: [Skibbfeed](https://codelikeagirlvodafoneireland.github.io/Skibbereen/Skibbfeed/Website/index.html)
+Project 5: TBC
 
-Project 6: [Selfcare For Young Women](https://codelikeagirlvodafoneireland.github.io/Skibbereen/Selfcareforyoungwomen/index.html)
-
-Project 7: [WestCork](https://codelikeagirlvodafoneireland.github.io/Skibbereen/Westcork/index.html)
-
-Project 8: [Aurelia](https://codelikeagirlvodafoneireland.github.io/Skibbereen/Aurelia_/aurelia_website.html)
-
+Project 6: TBC
