@@ -1,0 +1,93 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 30
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#footlooseheader{
+  border: solid 4px red;
+  margin-left:auto;
+  margin-right: auto;
+
+
+}
+body{
+  background-color: white;
+}
+
+#meetcast1{
+  text-align: center;
+  color: red;
+  font-size: 80px;
+  font:impact;
+}
+
+
+Div{
+  width:100%;
+  background-color:white;
+  border:solid 4px red;
+  padding-bottom: 5px;
+  font-size: 120%
+  fo
+
+}
+
+
+img{
+  footloose.jpg
+  border:solid 4px red;
+}
+
+#navigationbar{
+  background-color: #333;
+  border: solid 4px red;
+}
+
+#coredancers{
+  font-size: 350%;
+  color:red;
+
+}
+#interview{
+  width: 100%;
+  background-color: white;
+  border: solid 4px red;
+  padding-bottom: 5px;
+  font-size: 120%
+}
+
+#plot{
+font: ;
+}
+
+#details{
+  border: solid 4px red;
+}
+
+h4{
+  font-size: 150%
+}
+
+#peacelogo{
+  border: white;
+  padding-left: 300px
+}
