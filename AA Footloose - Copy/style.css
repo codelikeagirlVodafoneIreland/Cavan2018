@@ -1,0 +1,183 @@
+/* This is an unodered list*/
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 30
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#footlooseheader{
+  border: solid 4px red;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+body{
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Questrial';font-size: 22px;
+}
+
+
+#meetthecast{
+  width: 100%;
+  text-align: center;
+  border: solid 12px white;;
+  font-family: "Questrial"; font-size: 22px;
+}
+
+
+Div{
+  width:100%;
+  background-color:white;
+  border:solid 4px red;
+  padding-bottom: 5px;
+  font-size: 120%
+}
+
+
+#navigationbar{
+  background-color: #333;
+  border: solid 4px red;
+  font-family: 'Quicksand';font-size: 22px;
+}
+
+#coredancers{
+  font-size: 350% black;
+  font-family: 'Questrial';font-size: 22px;
+}
+
+
+#interview{
+  width: 100%;
+  background-color: white;
+  border: solid 4px red;
+  padding-bottom: 5px;
+  font-size: 120%
+  font-family: 'Josefin Sans';font-size: 22px;
+}
+
+#plot{
+font: ;
+border: white;
+font-family: 'Josefin Sans';font-size: 22px;
+}
+
+
+#details{
+  border: solid 4px red;
+  text-align: center;
+  font-family: 'Josefin Sans';font-size: 22px;
+}
+
+h4{
+  font-size: 40px;
+  padding-top: 5px;
+}
+
+#peacelogo{
+  border: white;
+  margin-left:500 ;
+}
+
+#directorstitle{
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  border: white;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+#contactform{
+  border:solid white;
+font-size: 15px;
+}
+
+#submit{
+  border: solid white;
+  text-align:: center;
+  font-size: 30px;
+}
+
+#peace{
+  font-size: 350%;
+  color:black;
+  font-family: 'Questrial';font-size: 22px;
+
+}
+
+#paigediv1{
+  margin-left: auto;
+  border: solid white;
+  padding-left: 0px;
+}
+#plogo{
+  border: white;
+}
+/* this is a paraghraph*/
+p{
+  text-align: center;
+  padding: 5px;
+}
+
+#paigediv2{
+  border: solid white;
+}
+
+#pgimg{
+  padding-left:10%;
+  width: 100%;
+  border:solid black;
+
+}
