@@ -1,7 +1,7 @@
 ## Welcome to Skibbereen CodeLikeAGirl project files
 
 
-Project 1: [Footloose](https://github.com/codelikeagirlVodafoneIreland/Cavan2018/tree/master/AA%20Footloose%20-%20Copy/index.html)
+Project 1: [Footloose](https://github.com/codelikeagirlVodafoneIreland/Cavan2018/tree/master/Footloose/index.html)
 
 Project 2: [Guide to being a Teenager](https://codelikeagirlvodafoneireland.github.io/Skibbereen/guide%20to%20being%20a%20teenager%20meme/index.html)
 
