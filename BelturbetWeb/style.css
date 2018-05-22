@@ -1,0 +1,47 @@
+body{
+background-color: #8B2635;
+color: white;
+font-size: 30px;
+}
+
+#topleft_title{
+  float:left;
+  width:30%;
+
+}
+
+#middle_title{
+  margin-left: 40%;
+
+    width:50%;
+    height: 50px;
+
+}
+
+#topright_title{
+  float: right;
+padding-left: 20%;
+}
+
+h1{
+  text-align: center;
+}
+#gaa1{
+  margin-left: 30%;
+}
+
+#HistoryOfBelturbet{
+  float: right;
+  /** margin-top: -265px;
+  margin-right: 270px; **/
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+a:hover {
+    color: hotpink;
+}
