@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Tourists Ireland </title>
+  <link rel="stylesheet" type= "text/css" href= "tourism.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- Add icon library -->
+</head>
+
+
+
+<body>
+
+<div id="top_banner">
+  <div id="top_logo">
+    <img src="logo.jpg" alt="Tourist Ireland Logo" height=80px>
+  </div>
+
+  <div id="top_title">
+    <b>Tourists Ireland </b>
+  </div>
+
+  <div id="top_logo2">
+    <img src="logo.jpg" alt="Tourist Ireland Logo" height=80px>
+  </div>
+</div>
+
+<div id="menubar2">
+  <div id="home2"><button class="btn">
+    <i class="fa fa-home"></i> <a href="index.html">
+    Home </a></button></div>
+
+  <div id="menu2"><button class="btn">
+    <i class="fa fa-bars"></i><a href="menu.html">
+    Menu</a></button></div>
+
+  <div id="about2"><button class="btn">
+    <i class="fa fa-users"></i> <a href="about.html">
+    About Us</a></button></div>
+
+  <div id="contact2"><button class="btn">
+    <i class="fa fa-envelope"></i><a href="contact.html">
+    Contact Us</a></button></div>
+
+  <div id="search2"><button class="btn">
+    <i class="fa fa-search"></i><a href="search.html">
+    Search</a></button></div>
+
+</div>
+
+<br>
+<br>
+<div id="contact">
+<h2> Contact Us </h2>
+</div>
+<br>
+
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<br>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="Europe">Europe</option>
+      <option value="Asia">Asia</option>
+      <option value="UK">UK</Option>
+    </select>
+    <br>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<br>
+    <input type="submit" value="Submit">
+
+  </form>
+  <br>
+  <br>
+</div>
+</body>
+</html>
