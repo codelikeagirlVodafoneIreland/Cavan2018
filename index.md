@@ -3,9 +3,9 @@
 PLACEHOLDER - LINKS ARE NOT WORKING PROPERLY YET
 
 
-Project 1: [Footloose](https://github.com/codelikeagirlVodafoneIreland/Cavan2018/Footloose/index.html)
+Project 1: [Footloose](https://codelikeagirlvodafoneireland.github.io/Cavan_2018/Footloose/index.html)
 
-Project 2: [Vines](https://github.com/codelikeagirlVodafoneIreland/Cavan_2018/blob/master/KEJ%20Vines/Homepage.html)
+Project 2: [Vines](https://codelikeagirlvodafoneireland.github.io/Cavan_2018/KEJ%20Vines/Homepage.html)
 
 Project 3: TBC
 
