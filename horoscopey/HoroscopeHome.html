@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+
+<title> Horoscopey </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--this is how to put in a link for notepad for editing purposes, must go on all pages-->
+</head>
+<body>
+  <div id="wholepage">
+    <table id="heading" >
+    <tr>
+      <td id="logoleft">  <img src="crystalball.png" height=100px> </td>
+      <td><h1><center> Horoscopey </center></h1>  </td>
+      <td id="logoright"> <img src="crystalball.png" height=100px> </td>
+    </tr>
+    </table>
+    <div id="navbar">
+      <a class="active" href="HoroscopeHome.html"> Home </a>
+      <a href="aboutus.html"> About Us </a>
+      <a href="historyofatrology.html"> History Of Astrology </a>
+      <a href="horoscopeoftheday.html"> Horoscope of The Day </a>
+      <a href="compatibility.html"> Signs Compatability </a>
+    </div>
+  </div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<table>
+  <tr>
+    <td>
+      <div class="container">
+        <a href="arieshoroscope.html">
+        <img id="horoscopeicon" height="100px" src="ariesclipart.png" class="image" >
+        </a>
+        <div class="middle">
+          <div class="text">Aries</div>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="container">
+        <a href="pisceshoroscope.html">
+        <img id="horoscopeicon" height="100px" src="piscesclipart.png" class="image">
+        </a>
+        <div class="middle">
+          <div class="text">Pisces</div>
+    </div>
+  </div>
+</td>
+<td>
+<div class="container">
+<a href="leohoroscope.html">
+  <img id="horoscopeicon" height="100px" src="leoclipart.png" class="image"></a>
+  <div class="middle">
+    <div class="text">Leo</div>
+  </div>
+</div>
+</td>
+
+<td>
+<div class="container">
+<a href="capricornhoroscope.html">
+  <img id="horoscopeicon" height="100px" src="capricornclipart.png" class="image"></a>
+  <div class="middle">
+    <div class="text">Capricorn</div>
+  </div>
+  </div>
+  </td>
+
+  <td>
+  <div class="container">
+<a href="cancerhoroscope.html">
+  <img id="horoscopeicon" height="100px" src="cancerclipart.png" alt="cancer"class="image"></a>
+  <div class="middle">
+    <div class="text">Cancer</div>
+  </div>
+  </div>
+  </td>
+
+  <td>
+  <div class="container">
+<a href="taurushoroscope.html">
+  <img id="horoscopeicon"height="100px"src="taurusclipart.png" class="image"></a>
+  <div class="middle">
+    <div class="text">Taurus</div>
+  </div>
+  </div>
+  </td>
+
+
+</tr>
+
+</table>
+<table>
+
+<tr>
+<td>
+<div class="container">
+<a href="aquariushoroscope.html">
+  <img id="horoscopeicon"height="100px"src="aquariusclipart.png"class="image"></a>
+  <div class="middle">
+    <div class="text">Aquarius</div>
+  </div>
+  </div>
+  </td>
+
+  <td>
+  <div class="container">
+<a href="sagittariushoroscope.html">
+  <img id="horoscopeicon"height="100px"src="sagittariusclipart.png"class="image"></a>
+  <div class="middle">
+    <div class="text">Sagittarius</div>
+  </div>
+  </div>
+  </td>
+
+  <td>
+  <div class="container">
+<a href="virgohoroscope.html">
+  <img id="horoscopeicon"height="100px"src="virgoclipart.png"class="image"></a>
+  <div class="middle">
+    <div class="text">Virgo</div>
+  </div>
+  </div>
+  </td>
+
+  <td>
+  <div class="container">
+<a href="geminihoroscope.html">
+  <img id="horoscopeicon"height="100px"src="geminiclipart.png"class="image"></a>
+  <div class="middle">
+    <div class="text">Gemini</div>
+  </div>
+  </div>
+  </td>
+
+  <td>
+  <div class="container">
+<a href="scorpiohoroscope.html">
+  <img id="horoscopeicon"height="100px"src="scorpioclipart.png"class="image"></a>
+  <div class="middle">
+    <div class="text">Scorpio</div>
+  </div>
+  </div>
+  </td>
+
+  <td>
+  <div class="container">
+<a href="librahoroscope.html">
+  <img id="horoscopeicon"height="100px"src="libraclipart.png"class="image"></a>
+  <div class="middle">
+    <div class="text">Libra</div>
+  </div>
+  </div>
+  </td>
+
+</tr>
+</table>
+
+
+
+</body>
+
+</html>

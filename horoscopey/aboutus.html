@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+<title> About Us </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--this is how to put in a link for notepad for editing purposes, must go on all pages-->
+</head>
+<body>
+<table id="heading" >
+<tr>
+  <td id="logoleft">  <img src="crystalball.png" height=100px> </td>
+  <td><h1><center> Horoscopey </center></h1>  </td>
+  <td id="logoright"> <img src="crystalball.png" height=100px> </td>
+</tr>
+</table>
+<div id="wholepage">
+  <div id="navbar">
+     <a class="active" href="HoroscopeHome.html"> Home </a>
+     <a href="aboutus.html"> About Us </a>
+     <a href="historyofatrology.html"> History Of Astrology </a>
+     <a href="horoscopeoftheday.html"> Horoscope of The Day </a>
+     <a href="compatibility.html"> Signs Compatability </a>
+  </div>
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kRrKNDu7XZY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <br>
+  <input type="text" placeholder="Search.." name="search">
+  <br>
+<a href="https://www.facebook.com/"><img src="facebook.png" width="100px" id="facebook"/> </a>
+
+</body>
+</html>

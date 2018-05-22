@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+
+<title> Horoscopey </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--this is how to put in a link for notepad for editing purposes, must go on all pages-->
+</head>
+<body>
+  <div id="wholepage">
+    <table id="heading" >
+    <tr>
+      <td id="logoleft">  <img src="crystalball.png" height=100px> </td>
+      <td><h1><center> Horoscopey </center></h1>  </td>
+      <td id="logoright"> <img src="crystalball.png" height=100px> </td>
+    </tr>
+  </table>
+      <div id="navbar">
+     <a class="active" href="HoroscopeHome.html"> Home </a>
+     <a href="aboutus.html"> About Us </a>
+     <a href="historyofatrology.html"> History Of Astrology </a>
+     <a href="horoscopeoftheday.html"> Horoscope of The Day </a>
+     <a href="compatibility.html"> Signs Compatability </a>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <div id="wholepage">
+  <h1><u> Scorpio</u></h1>
+  <br>
+
+  <h2><b>About Scorpio:</b></h2>
+
+  <h3>Scorpio<br> Scorpio is the eighth astrological sign in the Zodiac, originating from the constellation of Scorpius.<br>
+<br>the sun transits this area on average from October 23 to November 22.<br>
+<br>Depending on which zodiac system one uses, an individual born under the influence of Scorpio may be called a Scorpio<br>
+<br>or a Scorpion.<br>
+
+
+
+  <br><h2>Traits of Scorpio:<h2><br>
+
+  <br><h3>Scorpio Traits. The Scorpio-born are strong willed and mysterious,<br>
+<br>and they know how to effortlessly grab the limelight, as they possess what it takes to achieve their goals.<br>
+<br>They have a magnetic charm that can't be ignored.<br>
+
+
+  <br><h2>Earth Sign:<h2><br>
+
+  <br><h3>The Scorpio is a water sign<h3><br>
+
+  <br><h2>Ruling planet<h2><br>
+  <h3>Its ruling planet is Pluto and Mars:<h3>
+  <br><img src="pluto.jpg" width=35%><br>
+  <br><img src="mars.jpg" width=35%><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>

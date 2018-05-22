@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+
+<title> Horoscopey </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--this is how to put in a link for notepad for editing purposes, must go on all pages-->
+</head>
+<body>
+  <div id="wholepage">
+    <table id="heading" >
+    <tr>
+      <td id="logoleft">  <img src="crystalball.png" height=100px> </td>
+      <td><h1><center> Horoscopey </center></h1>  </td>
+      <td id="logoright"> <img src="crystalball.png" height=100px> </td>
+    </tr>
+  </table>
+  <div id="navbar">
+     <a class="active" href="HoroscopeHome.html"> Home </a>
+     <a href="aboutus.html"> About Us </a>
+     <a href="historyofatrology.html"> History Of Astrology </a>
+     <a href="horoscopeoftheday.html"> Horoscope of The Day </a>
+     <a href="compatibility.html"> Signs Compatability </a>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div id="wholepage">
+  <h1><u> Libra </u></h1>
+  <br>
+
+  <h2><b>About Libra:</b></h2>
+
+<h3>Libra<br> With a symbol of the scales in the zodiac,<br>
+<br>the sign of Libra is the sign of justice, balance and harmony.<br>
+<br>That is why Libra's are natural peacekeepers.<br></h3>
+
+<br><h2>Traits of Libra:<h2><br>
+
+<br><h3>In the game of love, Libras are a bundle of energy,<br>
+<br>romantic and loyal to the core. The Scales need to be on the lookout for their lower backs, though,<br>
+<br>which tend to shoulder any burdens they may be carrying. The great strength of the Libra-born<br>
+<br>is their quest for fairness, peace and harmony.<br>
+
+<br><h2>Earth Sign:<h2><br>
+
+<br><h3>The Libra is an earth sign<h3><br>
+
+<br><h2>Ruling planet<h2><br>
+<h3>Its ruling planet is Venus:<h3>
+<img src="venus.jpg" width=35%>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</html>

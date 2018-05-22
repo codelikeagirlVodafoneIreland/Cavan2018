@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+
+<title> Horoscopey </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!--this is how to put in a link for notepad for editing purposes, must go on all pages-->
+</head>
+<body>
+  <div id="wholepage">
+  <table id="heading" >
+  <tr>
+    <td id="logoleft">  <img src="crystalball.png" height=100px> </td>
+    <td><h1><center> Horoscopey </center></h1>  </td>
+    <td id="logoright"> <img src="crystalball.png" height=100px> </td>
+  </tr>
+</table>
+  <div id="navbar">
+     <a class="active" href="HoroscopeHome.html"> Home </a>
+     <a href="aboutus.html"> About Us </a>
+     <a href="historyofatrology.html"> History Of Astrology </a>
+     <a href="horoscopeoftheday.html"> Horoscope of The Day </a>
+     <a href="compatibility.html"> Signs Compatability </a>
+  </div>
+
+<br>
+<br>
+<br>
+
+<h1><u> Aries </u></h1>
+<br>
+
+<h2><b>About Aries:</b></h2>
+
+<h3>Aries<br> is the first sign of the zodiac, and that's pretty much how those born<br>
+<br>under this sign see themselves: first. Aries are the leaders of the pack,<br>
+<br>first in line to get things going. Whether or not everything gets<br>
+<br>done is another question altogether, for an Aries prefers to initiate<br>
+<br>rather than to complete.</h3><br>
+<br>
+
+<br><h2>Traits of Aries:<h2><br>
+
+<br><h3>The people born under the Zodiac Sign Aries are curious,<br>
+<br>energetic and enthusiastic individuals, who want to initiate <br>
+<br>and make things happen rather than being mere spectators.</h3><br>
+
+<br><h2>Earth Sign:<h2><br>
+
+<br><h3>The Aries is fire sign <h3><br>
+
+
+<br><h2>Ruling planet<h2><br>
+<h3>Its ruling planet is mars:<h3>
+<img src="mars.jpg" width=35%>
+
+
+<br>
+<br>
+<br>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  </script>
