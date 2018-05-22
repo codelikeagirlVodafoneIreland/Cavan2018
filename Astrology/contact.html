@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+    <title>Astro.ie </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+<div id="top_menu">
+  AstroDaily
+</div>
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="astrohistory.html">History</a>
+  <div class="dropdown">
+    <button class ="dropbtn">Horoscopes </button>
+
+      <div class= "dropdown-content">
+        <a href="ja.html">Jan 20-April 19</a>
+        <a href="aj.html">April 20-July 22</a>
+        <a href="jo.html">July 23-Oct 22</a>
+        <a href="oj.html">Oct 23-Jan 19</a>
+      </div>
+  </div>
+  <a href="about.html"> About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<br>
+    <label for="country">Country</label>
+    <select id="country" name="country" >
+      <option value="ireland">Ireland</option>
+      <option value="uk">UK</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+<br>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<br>
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+
+
+
+</body>
+</html>
