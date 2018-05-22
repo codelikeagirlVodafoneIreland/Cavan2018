@@ -7,7 +7,7 @@ Project 1: [Footloose](https://codelikeagirlvodafoneireland.github.io/Cavan_2018
 
 Project 2: [Vines](https://codelikeagirlvodafoneireland.github.io/Cavan_2018/KEJ%20Vines/Homepage.html)
 
-Project 3: TBC
+Project 3: [Astrology](https://codelikeagirlvodafoneireland.github.io/Cavan_2018/Astrology/home.html)
 
 Project 4: TBC
 
